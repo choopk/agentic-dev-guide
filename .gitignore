@@ -54,6 +54,7 @@ next-env.d.ts
 .claude/session-starts.log
 .claude/spec-first-warnings.log
 .claude/todo-activity.log
+.claude/current-todos.json
 
 # YoYo AI version control directory
 .yoyo/
