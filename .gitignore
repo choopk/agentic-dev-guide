@@ -1,0 +1,59 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Claude Code specific files
+.claude/logs/
+.claude/progress/
+.claude/research-reports/
+.claude/shared-memory/
+.claude/context-bundles/
+.claude/todo-summaries/
+.claude/bash-command-log.txt
+.claude/context-bundle-activity.log
+.claude/context-usage.log
+.claude/memory-activity.log
+.claude/session-starts.log
+.claude/spec-first-warnings.log
+.claude/todo-activity.log
+
+# YoYo AI version control directory
+.yoyo/
